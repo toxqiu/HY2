@@ -13,7 +13,7 @@ dns:
     - 8.8.8.8
 
 proxies:
-  - name: AWS-HY2
+  - name: AWS-TOKYO-HY2
     type: hysteria2
     server: toxqiu.ccwu.cc
     port: 443
@@ -25,7 +25,7 @@ proxy-groups:
   - name: PROXY
     type: select
     proxies:
-      - AWS-HY2
+      - AWS-TOKYO-HY2
 
 rules:
   - MATCH,PROXY
