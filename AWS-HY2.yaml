@@ -13,10 +13,98 @@ dns:
     - 8.8.8.8
 
 proxies:
-  - name: AWS-TOKYO-HY2
+  - name: TOKYO-HY2-24443
     type: hysteria2
     server: toxqiu.ccwu.cc
     port: 24443
+    password: QiuVPN2026
+    sni: toxqiu.ccwu.cc
+    client-fingerprint: chrome
+
+  - name: TOKYO-HY2-26443
+    type: hysteria2
+    server: toxqiu.ccwu.cc
+    port: 26443
+    password: QiuVPN2026
+    sni: toxqiu.ccwu.cc
+    client-fingerprint: chrome
+
+  - name: TOKYO-HY2-28443
+    type: hysteria2
+    server: toxqiu.ccwu.cc
+    port: 28443
+    password: QiuVPN2026
+    sni: toxqiu.ccwu.cc
+    client-fingerprint: chrome
+
+  - name: TOKYO-HY2-30443
+    type: hysteria2
+    server: toxqiu.ccwu.cc
+    port: 30443
+    password: QiuVPN2026
+    sni: toxqiu.ccwu.cc
+    client-fingerprint: chrome
+
+  - name: TOKYO-HY2-32443
+    type: hysteria2
+    server: toxqiu.ccwu.cc
+    port: 32443
+    password: QiuVPN2026
+    sni: toxqiu.ccwu.cc
+    client-fingerprint: chrome
+
+  - name: TOKYO-HY2-34443
+    type: hysteria2
+    server: toxqiu.ccwu.cc
+    port: 34443
+    password: QiuVPN2026
+    sni: toxqiu.ccwu.cc
+    client-fingerprint: chrome
+
+  - name: TOKYO-HY2-36443
+    type: hysteria2
+    server: toxqiu.ccwu.cc
+    port: 36443
+    password: QiuVPN2026
+    sni: toxqiu.ccwu.cc
+    client-fingerprint: chrome
+
+  - name: TOKYO-HY2-38443
+    type: hysteria2
+    server: toxqiu.ccwu.cc
+    port: 38443
+    password: QiuVPN2026
+    sni: toxqiu.ccwu.cc
+    client-fingerprint: chrome
+
+  - name: TOKYO-HY2-40443
+    type: hysteria2
+    server: toxqiu.ccwu.cc
+    port: 40443
+    password: QiuVPN2026
+    sni: toxqiu.ccwu.cc
+    client-fingerprint: chrome
+
+  - name: TOKYO-HY2-42443
+    type: hysteria2
+    server: toxqiu.ccwu.cc
+    port: 42443
+    password: QiuVPN2026
+    sni: toxqiu.ccwu.cc
+    client-fingerprint: chrome
+
+  - name: TOKYO-HY2-44443
+    type: hysteria2
+    server: toxqiu.ccwu.cc
+    port: 44443
+    password: QiuVPN2026
+    sni: toxqiu.ccwu.cc
+    client-fingerprint: chrome
+
+  - name: TOKYO-HY2-48443
+    type: hysteria2
+    server: toxqiu.ccwu.cc
+    port: 48443
     password: QiuVPN2026
     sni: toxqiu.ccwu.cc
     client-fingerprint: chrome
@@ -25,7 +113,18 @@ proxy-groups:
   - name: PROXY
     type: select
     proxies:
-      - AWS-TOKYO-HY2
+      - TOKYO-HY2-24443
+      - TOKYO-HY2-26443
+      - TOKYO-HY2-28443
+      - TOKYO-HY2-30443
+      - TOKYO-HY2-32443
+      - TOKYO-HY2-34443
+      - TOKYO-HY2-36443
+      - TOKYO-HY2-38443
+      - TOKYO-HY2-40443
+      - TOKYO-HY2-42443
+      - TOKYO-HY2-44443
+      - TOKYO-HY2-48443
 
 rules:
   - MATCH,PROXY
