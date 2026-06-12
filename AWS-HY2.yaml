@@ -16,7 +16,7 @@ proxies:
   - name: AWS-TOKYO-HY2
     type: hysteria2
     server: toxqiu.ccwu.cc
-    port: 8443
+    port: 24443
     password: QiuVPN2026
     sni: toxqiu.ccwu.cc
     client-fingerprint: chrome
