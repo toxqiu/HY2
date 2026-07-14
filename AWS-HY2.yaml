@@ -25,15 +25,15 @@ proxies:
     type: vless
     server: toxqiu.ccwu.cc
     port: 19443
-    uuid: 102370a0-a248-4d85-8a93-d8381eb70c21
+    uuid: 303c0d6e-5f8b-459d-81ea-e48f3c721629
     network: tcp
     udp: true
     tls: true
     servername: www.microsoft.com
     client-fingerprint: chrome
     reality-opts:
-      public-key: 7tnt1aJ5X9Gh7RZ1ecS6fXwgFF8ua6K4bNcv11cI5n4
-      short-id: 6d9b12
+      public-key: MQSFvn83PMlxP9QYF8l0UKt7lju7RYHcyzW_STxxYBo
+      short-id: ef6f59
 
 proxy-groups:
   - name: PROXY
