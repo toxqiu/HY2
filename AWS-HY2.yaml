@@ -21,11 +21,26 @@ proxies:
     sni: toxqiu.ccwu.cc
     client-fingerprint: chrome
 
+  - name: AWS-TOKYO-VLESS
+    type: vless
+    server: toxqiu.ccwu.cc
+    port: 19443
+    uuid: 102370a0-a248-4d85-8a93-d8381eb70c21
+    network: tcp
+    udp: true
+    tls: true
+    servername: www.microsoft.com
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 7tnt1aJ5X9Gh7RZ1ecS6fXwgFF8ua6K4bNcv11cI5n4
+      short-id: 6d9b12
+
 proxy-groups:
   - name: PROXY
     type: select
     proxies:
       - AWS-TOKYO-HY2
+      - AWS-TOKYO-VLESS
 
 rules:
   - MATCH,PROXY
