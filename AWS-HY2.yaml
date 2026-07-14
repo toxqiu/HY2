@@ -24,7 +24,7 @@ proxies:
   - name: AWS-TOKYO-VLESS
     type: vless
     server: toxqiu.ccwu.cc
-    port: 19443
+    port: 443
     uuid: 303c0d6e-5f8b-459d-81ea-e48f3c721629
     network: tcp
     udp: true
