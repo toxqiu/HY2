@@ -23,7 +23,7 @@ proxies:
 
   - name: AWS-TOKYO-VLESS
     type: vless
-    server: 54.178.39.183
+    server: toxqiu.ccwu.cc
     port: 19443
     uuid: 303c0d6e-5f8b-459d-81ea-e48f3c721629
     network: tcp
@@ -33,7 +33,7 @@ proxies:
     client-fingerprint: chrome
     reality-opts:
       public-key: MQSFvn83PMlxP9QYF8l0UKt7lju7RYHcyzW_STxxYBo
-      short-id: ef6f59
+      short-id: e6
 
 proxy-groups:
   - name: PROXY
