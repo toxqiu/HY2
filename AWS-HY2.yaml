@@ -30,7 +30,7 @@ proxies:
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: www.microsoft.com
+    servername: www.cloudflare.com
     client-fingerprint: chrome
     reality-opts:
       public-key: d4aY5LBXcPXZJ_q523l3xTvxeK2PkqBO8UnHYlvrRzc
